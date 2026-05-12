@@ -1,0 +1,66 @@
+# --- Secrets & credentials (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_rsa
+*_ecdsa
+*_ed25519
+credentials.json
+token.json
+secrets.yaml
+secrets.yml
+*.secret
+.netrc
+auth.json
+
+# --- Confidential / local-only documents ---
+# Policy PDFs and office docs often contain HR or restricted text — keep local only.
+policies/**/*.pdf
+policies/**/*.PDF
+policies/**/*.doc
+policies/**/*.docx
+policies/**/*.pptx
+policies/**/*.xlsx
+private/
+confidential/
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Local vector stores & docstores (large; regenerable; may mirror confidential text) ---
+**/allMiniLM-vector-store/
+**/bge-m3-vector-store/
+**/bge-m3-child-store/
+**/bge-m3-parent-store/
+
+# --- OS & editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+
+test.txt

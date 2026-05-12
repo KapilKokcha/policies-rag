@@ -1,0 +1,13 @@
+# This project uses the shared venv at ../all-miniLM-L6_chromadb/.venv
+# (same as main.ipynb). Install there, e.g.:
+#   ../all-miniLM-L6_chromadb/.venv/bin/pip install -r ../all-miniLM-L6_chromadb/requirements.txt
+# If anything below is missing in that venv, pip install it there.
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langchain-text-splitters
+pypdf
+ipykernel
+sentence-transformers
+chromadb
