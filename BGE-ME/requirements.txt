@@ -11,3 +11,6 @@ pypdf
 ipykernel
 sentence-transformers
 chromadb
+
+# For test doc clean (import fitz)
+pymupdf
